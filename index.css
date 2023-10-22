@@ -518,6 +518,7 @@ h2 span{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 90px;
 }
 
 .school_img img{
@@ -529,26 +530,28 @@ h2 span{
   }
   .school_info{
       background-color: var(--main-color);
-      width: 650px;
-      height: 400px;
+      width: 850px;
+      height: 450px;
       padding:30px;
       border-radius: 50px;
       color: var(--text2-color);
+      border:10px solid black
   }
 
   .school_info h2{
-     font-size: 2.1rem;
-     padding: 20px;
-     padding-right:10px;
+     font-size: 3rem;
+     padding-left: 20px;
+     padding-bottom: 10px;
      font-weight:bold;
+     text-align: center;
   }
 
   .school_info h3{
-    padding: 20px;
-    padding-top:0px;
-    font-size: 1.3rem;
-    font-weight:lighter ;
-    padding-right:130px;
+    padding-left: 20px;
+    padding-top:50px;
+    font-size: 1.7rem;
+    font-weight:lighter;
+    text-align: center;
   }
 
   .F_detail{
@@ -563,20 +566,17 @@ h2 span{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+    padding: 100px 30px;
 }
 
 .F_info{
     background-color: var(--main-color);
-    width: 650px;
-    height: 250px;
-    padding:30px;
+    width: 900px;
+    height: 350px;
+    padding:50px;
+    border:10px solid black;
     border-radius: 50px;
     color: var(--text2-color);
-    margin-bottom: -350px;
-    margin-left:-200px;
 }
 
 .F_img img{
@@ -588,10 +588,9 @@ h2 span{
  }
 
 .F_info h2{
-    font-size: 1.8rem;
+    font-size: 2.7rem;
     padding: 15px;
     font-weight:bold;
-    padding-left: 180px;
 }
 
 .Mentor{
@@ -655,14 +654,23 @@ font-size: 1.96rem;
 margin: 30px 0 5px;
 }
 
-.card span{
+.card h3{
     padding: 50px;
     display: flex;
-    color: #196ae5;
+    color: var(--text-color);
     text-align: center;
     font-size: 1.81rem;
     font-weight: bolder;
 }
+
+.card h2 img{
+    width:70px;
+    height: 50px;
+    position: relative;
+    top:30px;
+    left:-90px;
+}
+
 .carousel::-webkit-scrollbar{
   display: none;
 }
@@ -745,7 +753,7 @@ margin: 30px 0 5px;
 .carousel .card{
     scroll-snap-align: start;
     list-style: none;
-    background-color: var(--text-color);
+    background-color: var(--main-color);
     border-radius: 8px;
     height: 450px;
     display: flex;
@@ -754,6 +762,10 @@ margin: 30px 0 5px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.card span h5{
+    color: var(--text2-color);
 }
 
 .contact{
@@ -865,10 +877,8 @@ margin: 30px 0 5px;
        padding-right:70px;
      }
      .F_info h2{
-        font-size: 1.7rem;
         padding: 15px;
         font-weight:bold;
-        padding-left: 180px;
     }
 
 }
@@ -876,10 +886,7 @@ margin: 30px 0 5px;
 @media (max-width:1180px){
     .F_info{
         width: 700px;
-        height: 300px;
-    }
-    .F_info h2{
-        font-size: 1.6rem;
+        height: 400px;
     }
 }
 
@@ -901,13 +908,11 @@ margin: 30px 0 5px;
      .school_info h3{
        padding-right:40px;
      }
-     .F_info h2{
-        font-size: 1.5rem;
-    }
+
     .F_info{
         background-color: var(--main-color);
         width: 650px;
-        height: 300px;
+        height: 410px;
     }
 
 }
@@ -924,9 +929,6 @@ margin: 30px 0 5px;
         margin-top:280px;
         margin-left: -60px;
      }
-     .F_info h2{
-        font-size: 1.5rem;
-    }
     .Men_img img{
         width: 300px;
         height: 300px;
@@ -955,7 +957,7 @@ margin: 30px 0 5px;
      .F_info{
         background-color: var(--main-color);
         width: 650px;
-        height: 250px;
+        height: 450px;
     }
 }
 
@@ -966,11 +968,6 @@ margin: 30px 0 5px;
         height: 350px;
 
      }
-     .F_info{
-        background-color: var(--main-color);
-        width: 650px;
-        height: 230px;
-    }
 }
 
 @media (max-width:947px){
@@ -991,15 +988,13 @@ margin: 30px 0 5px;
       .school_info{
           background-color: var(--main-color);
           width: 550px;
-          height: 350px;
-          padding:20px;
+          height: 550px;
           border-radius: 50px;
           color: var(--text2-color);
-          margin-left: -100px;
       }
     
       .school_info h2{
-         font-size: 2.1rem;
+         font-size: 2.5rem;
          padding: 20px;
          padding-right:0px;
          font-weight:bold;
@@ -1007,31 +1002,10 @@ margin: 30px 0 5px;
     
       .school_info h3{
         padding: 20px;
-        padding-top:0px;
-        font-size: 1.3rem;
+        font-size: 2rem;
         font-weight:lighter ;
         padding-right:0px;
       }
-      .F_box{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 50px;
-    }
-    
-    .F_info{
-        background-color: var(--main-color);
-        width: 550px;
-        height: 200px;
-        padding:40px;
-        border-radius: 50px;
-        color: var(--text2-color);
-        margin-bottom: 0px;
-        margin-left:0px;
-        margin-right:-150px ;
-        margin-top: -50px;
-    }
     
     .F_img img{
         width: 500px;
@@ -1041,13 +1015,6 @@ margin: 30px 0 5px;
         z-index: 1;
         margin-left: -200px;
      }
-    
-    .F_info h2{
-        font-size: 1.8rem;
-        padding: 15px;
-        font-weight:bold;
-        padding-left:0px;
-    }
     .Men_img img{
         width: 250px;
         height: 250px;
@@ -1092,6 +1059,11 @@ margin: 30px 0 5px;
     .Men_img img{
         width: 230px;
         height: 230px;
+    }
+    .F_info{
+        background-color: var(--main-color);
+        width: 550px;
+        height: 550px;
     }
 
 }
@@ -1186,13 +1158,17 @@ margin: 30px 0 5px;
         padding:30px 0px 10px 0px;
         gap: 20px;
     }
+    .school_info h2{
+        font-size: 3rem;
+     }
     .school_info h3{
-        font-size: 1.6rem;
+        font-size: 2.5rem;
       }
       .F_info{
         background-color: var(--main-color);
-        width: 400px;
-        height: 200px;
+        width: 550px;
+        height: 420px;
+        padding: 15px;
       }
       .Men_box{
         display: flex;
@@ -1264,10 +1240,14 @@ margin: 30px 0 5px;
         height: 350px;
      }
       .school_info h2{
-         font-size: 2.1rem;
          padding: 20px;
-         padding-right:0px;
          font-weight:bold;
+      }
+      .F_info{
+        background-color: var(--main-color);
+        width: 400px;
+        height: 490px;
+        padding: 15px;
       }
 }
 
@@ -1281,16 +1261,14 @@ margin: 30px 0 5px;
      }
      .school_info{
          background-color: var(--main-color);
-         width: 450px;
-         height: 350px;
-         padding:20px;
+         width: 550px;
+         height: 550px;
+         padding:30px;
          border-radius: 50px;
          color: var(--text2-color);
-         margin-left: -100px;
      }
    
      .school_info h2{
-        font-size: 2.1rem;
         padding: 10px 20px;
         padding-right:0px;
         font-weight:bold;
@@ -1317,8 +1295,8 @@ margin: 30px 0 5px;
      }
      .F_info{
         background-color: var(--main-color);
-        width: 350px;
-        height: 200px;
+        width: 400px;
+        height: 500px;
       }
 }
 
@@ -1342,9 +1320,8 @@ margin: 30px 0 5px;
         margin-right: -160px;
      }
      .school_info{
-         width: 400px;
-         height: 400px;
-         margin-left: -70px;
+         width: 500px;
+         height: 590px;
      }
      .Men_img img{
         width: 300px;
@@ -1361,8 +1338,8 @@ margin: 30px 0 5px;
      }
      .F_info{
         background-color: var(--main-color);
-        width: 350px;
-        height: 200px;
+        width: 400px;
+        height: 400px;
       }
       .wrapper .carousel{
         grid-auto-columns:100%;
@@ -1374,17 +1351,6 @@ margin: 30px 0 5px;
     }
 }
 
-@media (max-width:580px){
-
-     .F_info{
-        background-color: var(--main-color);
-        width: 300px;
-        height: 250px;
-      }
-}
-
-
-
 @media (max-width:550px){
     .school_img img{
         width: 400px;
@@ -1394,22 +1360,14 @@ margin: 30px 0 5px;
         margin-right: -100px;
      }
      .school_info{
-         width: 370px;
-         height: 430px;
-         margin-left: -60px;
+         width: 400px;
+         height: 690px;
      }
      .F_info{
         background-color: var(--main-color);
-        width: 300px;
-        height: 200px;
-        padding:40px;
-        border-radius: 50px;
-        color: var(--text2-color);
-        margin-bottom: 0px;
-        margin-left:0px;
-        margin-right:-70px ;
-        margin-top: -50px;
-    }
+        width: 400px;
+        height: 500px;
+      }
     
     .F_img img{
         width: 450px;
@@ -1421,7 +1379,7 @@ margin: 30px 0 5px;
      }
     
     .F_info h2{
-        font-size: 1.8rem;
+        font-size: rem;
         padding: 15px;
         font-weight:bold;
         padding-left:0px;
@@ -1500,9 +1458,8 @@ margin: 30px 0 5px;
         margin-right: -100px;
      }
      .school_info{
-         width: 370px;
-         height: 430px;
-         margin-left:0px;
+         width: 350px;
+         height: 460px;
      }
      .F_img img{
         width: 350px;
@@ -1520,8 +1477,8 @@ margin: 30px 0 5px;
      }
      .F_info{
         background-color: var(--main-color);
-        width: 250px;
-        height: 250px;
+        width: 450px;
+        height: 450px;
     }
     .Men_img img{
         width: 200px;
@@ -1542,14 +1499,8 @@ margin: 30px 0 5px;
       }
      .school_info{
          width: 300px;
-         height: 430px;
-         margin-left:-10px;
+         height: 460px;
      }
-     .F_info{
-        background-color: var(--main-color);
-        width: 200px;
-        height: 270px;
-    }
     .Men_img img{
         width: 200px;
         height: 200px;
@@ -1585,6 +1536,14 @@ margin: 30px 0 5px;
         color:var(--main-color);
         font-size: 4rem;
       }
+      .F_info{
+        background-color: var(--main-color);
+        width: 400px;
+        height: 470px;
+      }
+      .F_info h2{
+        font-size: 2.5rem;
+      }
 }
 
 
@@ -1597,10 +1556,10 @@ margin: 30px 0 5px;
         margin-right: -100px;
      }
      .school_info{
-         width: 270px;
-         height: 430px;
-         margin-left:-10px;
-     }
+        padding: 20px;
+         width: 290px;
+         height: 500px;
+             }
      .home_h1{
         font-size: 3.4rem;
     }
@@ -1612,6 +1571,14 @@ margin: 30px 0 5px;
     .home_para h2 span{
         font-size: 2.3rem;
     }
+    .F_info{
+        background-color: var(--main-color);
+        width: 400px;
+        height: 500px;
+      }
+      .F_info h2{
+        font-size: 2.3rem;
+      }
 }
 
 @media (max-width:372px){
@@ -1633,17 +1600,13 @@ margin: 30px 0 5px;
         margin-right: -100px;
      }
      .school_info h3{
-        font-size: 1.46rem;
+        font-size: 1.8rem;
       }
      .school_info{
-         width: 250px;
-         height: 420px;
-         margin-left:-10px;
+         width: 300px;
+         height: 520px;
      }
-    .F_info{
-        margin-right:-40px ;
-        margin-top: -50px;
-    }
+
     .school_info h3{
         padding: 0px 20px;
         font-weight:lighter;
@@ -1667,9 +1630,8 @@ margin: 30px 0 5px;
         margin-right: -100px;
      }
      .school_info{
-         width: 250px;
-         height: 420px;
-         margin-left:-10px;
+         width: 270px;
+         height: 590px;
      }
      .F_img img{
         width: 250px;

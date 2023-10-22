@@ -543,7 +543,7 @@ h2 span{
      padding-left: 20px;
      padding-bottom: 10px;
      font-weight:bold;
-     text-align: center;
+     
   }
 
   .school_info h3{
@@ -551,7 +551,7 @@ h2 span{
     padding-top:50px;
     font-size: 1.7rem;
     font-weight:lighter;
-    text-align: center;
+
   }
 
   .F_detail{
@@ -657,7 +657,7 @@ margin: 30px 0 5px;
 .card h3{
     padding: 50px;
     display: flex;
-    color: var(--text-color);
+    color: var(--text2-color);
     text-align: center;
     font-size: 1.81rem;
     font-weight: bolder;
@@ -669,6 +669,7 @@ margin: 30px 0 5px;
     position: relative;
     top:30px;
     left:-90px;
+    
 }
 
 .carousel::-webkit-scrollbar{
@@ -1159,10 +1160,10 @@ margin: 30px 0 5px;
         gap: 20px;
     }
     .school_info h2{
-        font-size: 3rem;
+        font-size: 2.6rem;
      }
     .school_info h3{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
       }
       .F_info{
         background-color: var(--main-color);
@@ -1321,7 +1322,7 @@ margin: 30px 0 5px;
      }
      .school_info{
          width: 500px;
-         height: 590px;
+         height: 600px;
      }
      .Men_img img{
         width: 300px;
@@ -1339,7 +1340,7 @@ margin: 30px 0 5px;
      .F_info{
         background-color: var(--main-color);
         width: 400px;
-        height: 400px;
+        height: 500px;
       }
       .wrapper .carousel{
         grid-auto-columns:100%;
@@ -1351,7 +1352,7 @@ margin: 30px 0 5px;
     }
 }
 
-@media (max-width:550px){
+@media (max-width:551px){
     .school_img img{
         width: 400px;
         height: 300px;
@@ -1361,7 +1362,7 @@ margin: 30px 0 5px;
      }
      .school_info{
          width: 400px;
-         height: 690px;
+         height: 710px;
      }
      .F_info{
         background-color: var(--main-color);
@@ -1379,7 +1380,6 @@ margin: 30px 0 5px;
      }
     
     .F_info h2{
-        font-size: rem;
         padding: 15px;
         font-weight:bold;
         padding-left:0px;
@@ -1466,7 +1466,7 @@ margin: 30px 0 5px;
         height: 250px;
      }
      .school_info h3{
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
 }
 
